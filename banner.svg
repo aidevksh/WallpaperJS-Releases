@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">WallpaperJS</title>
+  <desc id="description">Your desktop. Your code. HTML, CSS and JavaScript wallpapers for Windows and macOS. In development.</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#191b2b"/><stop offset="1" stop-color="#0d1017"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ae9cff" stop-opacity=".22"/><stop offset="1" stop-color="#ae9cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wave" x2="1" y2="0"><stop stop-color="#ae9cff"/><stop offset="1" stop-color="#c5ed88"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#panel)" stroke="#303545" stroke-width="2"/>
+  <ellipse cx="990" cy="160" rx="280" ry="260" fill="url(#glow)"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="54" y="47" width="42" height="42" rx="12" fill="#ae9cff"/>
+    <path d="M64 60v16l11-16v16l11-16v16" fill="none" stroke="#20172f" stroke-width="3" stroke-linejoin="round"/>
+    <text x="110" y="77" fill="#edf0f7" font-size="24" font-weight="650">WallpaperJS</text>
+    <text x="53" y="165" fill="#edf0f7" font-size="47" font-weight="600" letter-spacing="-1.4">Your desktop.</text>
+    <text x="53" y="220" fill="#ae9cff" font-size="47" font-weight="600" letter-spacing="-1.4">Your code.</text>
+    <text x="56" y="258" fill="#96a0b4" font-size="16">HTML · CSS · JavaScript</text>
+    <g font-size="12" fill="#bfc7d7">
+      <rect x="55" y="287" width="90" height="28" rx="8" fill="#1d2230" stroke="#343b4d"/><text x="72" y="306">Windows</text>
+      <rect x="155" y="287" width="82" height="28" rx="8" fill="#1d2230" stroke="#343b4d"/><text x="174" y="306">macOS</text>
+      <circle cx="267" cy="301" r="3" fill="#c5ed88"/><text x="280" y="306" fill="#96a0b4">IN DEVELOPMENT</text>
+    </g>
+  </g>
+  <g transform="translate(710 70)">
+    <rect width="405" height="227" rx="16" fill="#121722" stroke="#3b354c" stroke-width="1.5"/>
+    <path d="M0 35h405" stroke="#2a303e"/><circle cx="21" cy="18" r="3" fill="#ae9cff"/><circle cx="33" cy="18" r="3" fill="#5d566e"/><circle cx="45" cy="18" r="3" fill="#5d566e"/>
+    <g stroke="#272d3e" stroke-width="1"><path d="M32 78h341M32 118h341M32 158h341M32 198h341"/><path d="M73 58v145M137 58v145M201 58v145M265 58v145M329 58v145"/></g>
+    <path d="M32 146C66 146 69 97 103 97s38 72 71 72 35-91 69-91 32 69 66 69 38-27 64-27" fill="none" stroke="url(#wave)" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="243" cy="78" r="5" fill="#c5ed88"/>
+    <rect x="290" y="183" width="83" height="22" rx="6" fill="#2b253b"/>
+    <text x="331" y="198" text-anchor="middle" fill="#c6b9ec" font-family="Consolas, monospace" font-size="10">&lt;/&gt; LOCAL</text>
+  </g>
+</svg>

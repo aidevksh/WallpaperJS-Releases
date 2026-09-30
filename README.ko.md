@@ -6,49 +6,73 @@
 
 **HTML · CSS · JavaScript로 만드는 나만의 데스크톱.**
 
-Windows · macOS · English · 한국어
+웹으로 만든 장면을 매일의 바탕화면으로.
 
-[English](README.md) · [한국어](README.ko.md)
+[![Release](https://img.shields.io/badge/release-v0.1.0_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.0)
+![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS-20232b?style=flat-square)
+[![License](https://img.shields.io/badge/license-Apache_2.0-bce3ac?style=flat-square)](LICENSE)
+
+[다운로드](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.0) · [English](README.md) · [한국어](README.ko.md) · [문제 신고](https://github.com/aidevksh/WallpaperJS-Releases/issues)
 
 </div>
 
 ---
 
-## 내 코드로 만드는 매일의 화면
+## 내 코드로 채우는 화면
 
-WallpaperJS는 직접 만든 웹 바탕화면을 실행하고 관리하는 데스크톱 프로그램입니다. 로컬 HTML / CSS / JavaScript 프로젝트를 가져오고, 소리와 마우스 움직임을 연결하고, 짙은 배경과 라벤더 포인트의 화면에서 런처 아이콘을 꾸밀 수 있습니다.
+로컬 HTML, CSS, JavaScript 프로젝트를 가져와 실제 바탕화면에서 실행하세요. 짙은 배경과 라벤더 포인트의 관리 화면에서 프로젝트와 디스플레이를 선택하면 됩니다.
 
-이 저장소는 **공개 다운로드 안내와 향후 바이너리 릴리즈**를 관리하는 곳입니다. 프로그램 소스는 별도의 비공개 저장소에서 관리합니다.
+- **익숙한 웹 기술** — 직접 만든 웹 프로젝트를 바탕화면으로 사용합니다.
+- **여러 화면, 하나의 장면** — 여러 디스플레이에 적용하고, Windows에서는 하나의 넓은 장면으로 이어 표시합니다.
+- **작업에 맞춘 재생** — 30·60 FPS 설정과 일시정지를 지원합니다.
+- **조용한 백그라운드 실행** — 창을 닫아도 트레이 또는 메뉴 막대에서 계속 실행됩니다.
+- **한국어와 영어** — 시스템 언어 또는 원하는 언어를 선택할 수 있습니다.
 
 ## 다운로드
 
-**아직 공개된 바이너리 릴리즈가 없습니다.** 현재 개발 중이며, 소유자가 첫 릴리즈를 지시하면 다운로드와 설치 안내를 추가합니다.
+**v0.1.0 · 첫 프리릴리즈** — 아래에서 운영체제와 CPU에 맞는 설치 파일을 선택하세요. 기본 바탕화면 카탈로그는 포함하지 않으며, 라이브러리는 빈 상태로 시작합니다.
 
-기본 바탕화면 카탈로그는 포함하지 않습니다. 바탕화면 등록과 큐레이션은 추후 진행합니다.
-
-## 플랫폼별 예정 범위
-
-| | Windows | macOS |
+| 운영체제 | CPU | 설치 파일 |
 | --- | --- | --- |
-| 웹 바탕화면, 소리·포인터 효과 | 포함 | 포함 |
-| 다중 디스플레이, 커스텀 런처 아이콘 | 포함 | 포함 |
-| Windows 바로가기 아이콘 변경·복원 | 포함 | 해당 없음 |
-| 잠금화면 이미지 | 바탕화면 스냅샷 또는 별도 정지 이미지 | 제외 |
-| 프로그램 언어 | 시스템 / 영어 / 한국어 | 시스템 / 영어 / 한국어 |
+| Windows | Intel / AMD (x64) | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.0/WallpaperJS-0.1.0-windows-x64.exe) |
+| Windows | ARM64 | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.0/WallpaperJS-0.1.0-windows-arm64.exe) |
+| macOS 14.2+ | Apple Silicon (M-series) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.0/WallpaperJS-0.1.0-macos-arm64.dmg) |
+| macOS 14.2+ | Intel (x64) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.0/WallpaperJS-0.1.0-macos-x64.dmg) |
 
-위 표는 개발 범위이며 릴리즈 준비 완료를 의미하지 않습니다. 현재 개발 호스트는 Windows이고, macOS의 실제 실행과 설치 검증은 남아 있습니다. Ubuntu와 다른 Linux 데스크톱은 이번 버전에서 제외합니다.
+[SHA-256 체크섬](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.0/SHA256SUMS.txt) · [릴리즈 노트](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.0)
 
-## 사용 흐름
+### 설치 안내
 
-1. 로컬 웹 바탕화면 프로젝트를 가져옵니다.
-2. 디스플레이를 선택하고 배경을 적용합니다.
-3. 필요하면 프로젝트의 오디오·포인터 입력을 허용합니다.
-4. Windows에서는 현재 장면이나 다른 정지 이미지를 잠금화면에 지정할 수 있습니다.
+**Windows:** `.exe`를 실행하고 설치 위치를 선택합니다. 이번 빌드는 코드 서명이 없어 SmartScreen 경고가 표시될 수 있습니다.
 
-잠금화면은 운영체제의 보안 잠금화면을 사용하며, 그 위에서 웹 콘텐츠를 실행하지 않습니다. macOS의 오디오 캡처에는 관련 시스템 권한이 필요합니다.
+**macOS:** `.dmg`를 열고 WallpaperJS를 응용 프로그램 폴더로 옮깁니다. 이번 빌드는 Developer ID 서명·Apple 공증을 받지 않았으므로 Gatekeeper가 실행을 차단할 수 있습니다. 다운로드 출처를 확인한 뒤 macOS의 **시스템 설정 → 개인정보 보호 및 보안**에서 차단 안내를 확인하세요. 관리되는 기기에서는 실행이 제한될 수 있습니다.
 
-## 라이선스와 고지
+## 첫 바탕화면 시작하기
 
-WallpaperJS에는 [Apache License 2.0](LICENSE)을 적용합니다. 프로젝트 저작권 표시는 [NOTICE](NOTICE)에 있습니다. 포함된 의존성과 사용자 바탕화면·아이콘에는 각자의 라이선스가 적용되며, 바이너리에 필요한 제3자 고지를 함께 제공합니다.
+1. `wallpaper.json`과 웹 파일이 있는 로컬 프로젝트를 준비합니다.
+2. 앱에서 프로젝트 폴더 또는 ZIP을 가져옵니다.
+3. 적용할 디스플레이를 선택하고 바탕화면을 적용합니다.
+4. Windows에서는 여러 디스플레이를 체크한 뒤 하나의 세트로 이어 표시할 수 있습니다.
 
-이 저장소에는 다운로드 문서와 추후 명시적으로 릴리즈한 바이너리만 게시하며, 프로그램 소스 코드는 공개하지 않습니다.
+창을 닫으면 백그라운드에서 계속 실행됩니다. Windows 알림 영역 또는 macOS 메뉴 막대의 아이콘으로 다시 열고, 메뉴의 **종료**로 앱을 완전히 종료하세요.
+
+## 플랫폼과 알려진 제한
+
+| 기능 | Windows | macOS |
+| --- | --- | --- |
+| HTML / CSS / JS 바탕화면 | 지원 | 지원 |
+| 디스플레이별 적용 | 지원 | 지원 |
+| 여러 화면에 걸친 단일 장면 | 디스플레이 세트 | 미지원 |
+| 잠금화면 이미지 | 스냅샷 또는 별도 이미지 | 미지원 |
+| 한국어 / 영어 | 지원 | 지원 |
+
+- Windows 잠금화면은 **정지 이미지**만 지원하며 장치 정책에 따라 변경이 제한됩니다.
+- FPS 설정은 `requestAnimationFrame`에 적용되며 CSS 애니메이션과 동영상에는 적용되지 않습니다. 일시정지 후 재생하면 프로젝트를 다시 불러옵니다.
+- Windows 11 x64와 macOS ARM64에서 네이티브 바탕화면 연결을 확인했습니다. 설치 프로그램의 실제 기기 검증, macOS Spaces·Mission Control·다중 디스플레이, Windows 혼합 DPI 세트는 추가 검증이 필요합니다.
+- Linux는 지원하지 않습니다.
+
+## 라이선스
+
+WallpaperJS는 [Apache License 2.0](LICENSE)을 따릅니다. 저작권 표시는 [NOTICE](NOTICE), 포함된 의존성의 라이선스는 설치 패키지의 고지 파일에서 확인할 수 있습니다. 사용자가 가져온 바탕화면에는 각 저작자의 라이선스가 적용됩니다.
+
+이 저장소는 공식 다운로드와 배포 안내를 제공합니다. 프로그램 소스는 별도의 비공개 저장소에서 관리합니다.

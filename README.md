@@ -8,11 +8,11 @@
 
 Turn your own web creations into a living desktop.
 
-[![Release](https://img.shields.io/badge/release-v0.1.1_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1)
+[![Release](https://img.shields.io/badge/release-v0.1.2_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS-20232b?style=flat-square)
 [![License](https://img.shields.io/badge/license-Apache_2.0-bce3ac?style=flat-square)](LICENSE)
 
-[Download](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1) · [English](README.md) · [한국어](README.ko.md) · [Report an issue](https://github.com/aidevksh/WallpaperJS-Releases/issues)
+[Download](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2) · [English](README.md) · [한국어](README.ko.md) · [Report an issue](https://github.com/aidevksh/WallpaperJS-Releases/issues)
 
 </div>
 
@@ -30,22 +30,26 @@ Import a local HTML, CSS, and JavaScript project and bring it to your desktop. M
 
 ## Download
 
-**v0.1.1 · macOS Dock-hidden preview** — choose the installer for your operating system and CPU. The library starts empty; no wallpaper catalog is bundled.
+**v0.1.2 · HTML import fix preview** — choose the installer for your operating system and CPU. The library starts empty; no wallpaper catalog is bundled.
 
 | Operating system | CPU | Installer |
 | --- | --- | --- |
-| Windows | Intel / AMD (x64) | [Download .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-windows-x64.exe) |
-| Windows | ARM64 | [Download .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-windows-arm64.exe) |
-| macOS 14.2+ | Apple Silicon (M-series) | [Download .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-macos-arm64.dmg) |
-| macOS 14.2+ | Intel (x64) | [Download .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-macos-x64.dmg) |
+| Windows | Intel / AMD (x64) | [Download .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-x64.exe) |
+| Windows | ARM64 | [Download .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-arm64.exe) |
+| macOS 14.2+ | Apple Silicon (M-series) | [Download .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-arm64.dmg) |
+| macOS 14.2+ | Intel (x64) | [Download .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-x64.dmg) |
 
-[SHA-256 checksums](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/SHA256SUMS.txt) · [Release notes](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1)
+[SHA-256 checksums](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/SHA256SUMS.txt) · [Release notes](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
+
+v0.1.2 fixes blank previews and wallpapers after importing another HTML project while playback is running. Relative HTML/CSS/JavaScript assets load without restarting the renderer. macOS Dock hiding is retained.
 
 ### Installation
 
 **Windows:** run the `.exe` and choose an installation location. These builds are not code-signed, so Windows may show a SmartScreen warning.
 
 **macOS:** open the `.dmg` and drag WallpaperJS into Applications. These builds do not have Developer ID signing or Apple notarization, so Gatekeeper may block launch. Verify the download source, then review the blocked-app notice in **System Settings → Privacy & Security**. Managed devices may restrict launch.
+
+Before upgrading, reopen the existing app and choose **Stop playback and quit** so its background controller and renderer exit. Install the update, then reopen WallpaperJS; imported projects and saved assignments remain.
 
 ## Your first wallpaper
 

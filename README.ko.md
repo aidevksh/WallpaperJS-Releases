@@ -8,11 +8,11 @@
 
 웹으로 만든 장면을 매일의 바탕화면으로.
 
-[![Release](https://img.shields.io/badge/release-v0.1.1_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1)
+[![Release](https://img.shields.io/badge/release-v0.1.2_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS-20232b?style=flat-square)
 [![License](https://img.shields.io/badge/license-Apache_2.0-bce3ac?style=flat-square)](LICENSE)
 
-[다운로드](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1) · [English](README.md) · [한국어](README.ko.md) · [문제 신고](https://github.com/aidevksh/WallpaperJS-Releases/issues)
+[다운로드](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2) · [English](README.md) · [한국어](README.ko.md) · [문제 신고](https://github.com/aidevksh/WallpaperJS-Releases/issues)
 
 </div>
 
@@ -30,22 +30,26 @@
 
 ## 다운로드
 
-**v0.1.1 · macOS Dock 숨김 프리릴리즈** — 아래에서 운영체제와 CPU에 맞는 설치 파일을 선택하세요. 기본 바탕화면 카탈로그는 포함하지 않으며, 라이브러리는 빈 상태로 시작합니다.
+**v0.1.2 · HTML 가져오기 수정 프리릴리즈** — 아래에서 운영체제와 CPU에 맞는 설치 파일을 선택하세요. 기본 바탕화면 카탈로그는 포함하지 않으며, 라이브러리는 빈 상태로 시작합니다.
 
 | 운영체제 | CPU | 설치 파일 |
 | --- | --- | --- |
-| Windows | Intel / AMD (x64) | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-windows-x64.exe) |
-| Windows | ARM64 | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-windows-arm64.exe) |
-| macOS 14.2+ | Apple Silicon (M-series) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-macos-arm64.dmg) |
-| macOS 14.2+ | Intel (x64) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/WallpaperJS-0.1.1-macos-x64.dmg) |
+| Windows | Intel / AMD (x64) | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-x64.exe) |
+| Windows | ARM64 | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-arm64.exe) |
+| macOS 14.2+ | Apple Silicon (M-series) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-arm64.dmg) |
+| macOS 14.2+ | Intel (x64) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-x64.dmg) |
 
-[SHA-256 체크섬](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.1/SHA256SUMS.txt) · [릴리즈 노트](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.1)
+[SHA-256 체크섬](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/SHA256SUMS.txt) · [릴리즈 노트](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
+
+v0.1.2에서는 재생 중 다른 HTML 프로젝트를 가져왔을 때 미리보기와 바탕화면이 빈 화면으로 뜨는 문제를 수정했습니다. 렌더러를 다시 시작하지 않아도 새 HTML·CSS·JavaScript 리소스를 불러옵니다. macOS Dock 숨김은 유지합니다.
 
 ### 설치 안내
 
 **Windows:** `.exe`를 실행하고 설치 위치를 선택합니다. 이번 빌드는 코드 서명이 없어 SmartScreen 경고가 표시될 수 있습니다.
 
 **macOS:** `.dmg`를 열고 WallpaperJS를 응용 프로그램 폴더로 옮깁니다. 이번 빌드는 Developer ID 서명·Apple 공증을 받지 않았으므로 Gatekeeper가 실행을 차단할 수 있습니다. 다운로드 출처를 확인한 뒤 macOS의 **시스템 설정 → 개인정보 보호 및 보안**에서 차단 안내를 확인하세요. 관리되는 기기에서는 실행이 제한될 수 있습니다.
+
+업데이트 전 기존 앱을 다시 열어 **재생 중지 및 종료**로 백그라운드 제어기와 렌더러까지 종료하세요. 업데이트 설치 후 WallpaperJS를 다시 실행하면 됩니다. 가져온 프로젝트와 저장한 적용 설정은 유지됩니다.
 
 ## 첫 바탕화면 시작하기
 

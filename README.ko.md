@@ -8,11 +8,11 @@
 
 웹으로 만든 장면을 매일의 바탕화면으로.
 
-[![Release](https://img.shields.io/badge/release-v0.1.2_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
+[![Release](https://img.shields.io/badge/release-v0.1.3_preview-b7a4ef?style=flat-square)](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.3)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS-20232b?style=flat-square)
 [![License](https://img.shields.io/badge/license-Apache_2.0-bce3ac?style=flat-square)](LICENSE)
 
-[다운로드](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2) · [English](README.md) · [한국어](README.ko.md) · [문제 신고](https://github.com/aidevksh/WallpaperJS-Releases/issues)
+[다운로드](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.3) · [English](README.md) · [한국어](README.ko.md) · [문제 신고](https://github.com/aidevksh/WallpaperJS-Releases/issues)
 
 </div>
 
@@ -22,6 +22,7 @@
 
 로컬 HTML, CSS, JavaScript 프로젝트를 가져와 실제 바탕화면에서 실행하세요. 짙은 배경과 라벤더 포인트의 관리 화면에서 프로젝트와 디스플레이를 선택하면 됩니다.
 
+- **WallpaperStore** — 앱 안에서 릴리즈 배경화면을 탐색하고 다운로드·적용합니다.
 - **익숙한 웹 기술** — 직접 만든 웹 프로젝트를 바탕화면으로 사용합니다.
 - **여러 화면, 하나의 장면** — 여러 디스플레이에 적용하고, Windows에서는 하나의 넓은 장면으로 이어 표시합니다.
 - **작업에 맞춘 재생** — 30·60 FPS 설정과 일시정지를 지원합니다.
@@ -30,18 +31,18 @@
 
 ## 다운로드
 
-**v0.1.2 · HTML 가져오기 수정 프리릴리즈** — 아래에서 운영체제와 CPU에 맞는 설치 파일을 선택하세요. 기본 바탕화면 카탈로그는 포함하지 않으며, 라이브러리는 빈 상태로 시작합니다.
+**v0.1.3 · WallpaperStore 프리릴리즈** — 아래에서 운영체제와 CPU에 맞는 설치 파일을 선택하세요. 라이브러리는 빈 상태로 시작하며, 스토어에서 원하는 배경화면을 다운로드합니다.
 
 | 운영체제 | CPU | 설치 파일 |
 | --- | --- | --- |
-| Windows | Intel / AMD (x64) | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-x64.exe) |
-| Windows | ARM64 | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-windows-arm64.exe) |
-| macOS 14.2+ | Apple Silicon (M-series) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-arm64.dmg) |
-| macOS 14.2+ | Intel (x64) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/WallpaperJS-0.1.2-macos-x64.dmg) |
+| Windows | Intel / AMD (x64) | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.3/WallpaperJS-0.1.3-windows-x64.exe) |
+| Windows | ARM64 | [다운로드 .exe](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.3/WallpaperJS-0.1.3-windows-arm64.exe) |
+| macOS 14.2+ | Apple Silicon (M-series) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.3/WallpaperJS-0.1.3-macos-arm64.dmg) |
+| macOS 14.2+ | Intel (x64) | [다운로드 .dmg](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.3/WallpaperJS-0.1.3-macos-x64.dmg) |
 
-[SHA-256 체크섬](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.2/SHA256SUMS.txt) · [릴리즈 노트](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.2)
+[SHA-256 체크섬](https://github.com/aidevksh/WallpaperJS-Releases/releases/download/v0.1.3/SHA256SUMS.txt) · [릴리즈 노트](https://github.com/aidevksh/WallpaperJS-Releases/releases/tag/v0.1.3)
 
-v0.1.2에서는 재생 중 다른 HTML 프로젝트를 가져왔을 때 미리보기와 바탕화면이 빈 화면으로 뜨는 문제를 수정했습니다. 렌더러를 다시 시작하지 않아도 새 HTML·CSS·JavaScript 리소스를 불러옵니다. macOS Dock 숨김은 유지합니다.
+v0.1.3에서는 [WallpaperStore 최신 릴리즈](https://github.com/aidevksh/WallpaperStore/releases/latest)를 사용하는 앱 내 스토어를 추가했습니다. 썸네일을 보고 **다운로드 및 적용**하거나, 다운로드만 해서 나중에 적용할 수 있습니다. 적용·삭제 버튼은 디스플레이 선택 바로 아래로 옮겼습니다. 가져온 프로젝트의 썸네일도 라이브러리에 표시합니다.
 
 ### 설치 안내
 
@@ -53,9 +54,9 @@ v0.1.2에서는 재생 중 다른 HTML 프로젝트를 가져왔을 때 미리�
 
 ## 첫 바탕화면 시작하기
 
-1. 로컬 HTML 파일 또는 HTML·CSS·JavaScript와 리소스가 들어 있는 프로젝트 폴더를 준비합니다.
-2. HTML·ZIP은 **파일 가져오기**, 프로젝트 폴더는 **폴더 가져오기**를 사용합니다.
-3. 적용할 디스플레이를 선택하고 바탕화면을 적용합니다.
+1. **스토어**를 열고 원하는 배경화면을 선택합니다.
+2. 적용할 디스플레이를 체크하고 **다운로드 및 적용**을 누릅니다.
+3. 직접 만든 HTML·ZIP은 **파일 가져오기**, HTML·CSS·JavaScript와 리소스가 들어 있는 폴더는 **폴더 가져오기**를 사용한 뒤 디스플레이를 선택하고 적용합니다.
 4. Windows에서는 여러 디스플레이를 체크한 뒤 하나의 세트로 이어 표시할 수 있습니다.
 
 관리 창을 닫아도 별도 백그라운드 프로세스가 재생을 유지합니다. WallpaperJS를 다시 실행해 제어하고 **재생 중지 및 종료**로 완전히 종료하세요. 현재 버전에는 상주 트레이·메뉴 막대 아이콘이 없습니다. macOS의 관리 앱과 HTML 렌더러는 Dock에 표시하지 않습니다.
@@ -71,6 +72,7 @@ v0.1.2에서는 재생 중 다른 HTML 프로젝트를 가져왔을 때 미리�
 | 잠금화면 이미지 | 스냅샷 또는 별도 이미지 | 미지원 |
 | 한국어 / 영어 | 지원 | 지원 |
 
+- 스토어 탐색·다운로드에는 인터넷 연결이 필요합니다. 릴리즈 ZIP의 크기와 제공된 SHA-256 체크섬을 검증한 후 가져옵니다. 다운로드한 배경화면은 로컬에서 실행하며, 다운로드 실패 시 현재 재생 상태를 유지합니다.
 - Windows 잠금화면은 **정지 이미지**만 지원하며 장치 정책에 따라 변경이 제한됩니다.
 - HTML은 실시간으로 실행하므로 시계와 애니메이션이 동작합니다. 30/60 FPS 설정은 `requestAnimationFrame`에 적용되며 CSS 애니메이션과 HTML 안의 동영상에는 적용되지 않습니다. 일시정지 후 HTML을 다시 재생하면 프로젝트를 다시 불러옵니다. WebM은 영상의 FPS를 따릅니다.
 - 단일 HTML 가져오기는 해당 파일만 복사합니다. 상대 경로 리소스는 폴더·ZIP으로 가져오세요. 외부 네트워크 접근은 차단하므로 날씨 API 연결에는 별도 설계가 필요합니다.
